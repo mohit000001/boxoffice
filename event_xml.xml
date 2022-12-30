@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <events>
+<mumbai>
+   <city>mumbai</city>
+   <name>stars of india</name>
+   <state>maharastra</state>
+   <dat>25-05-2017</dat>
+   <place>new mumbai, boxoffice studio</place>
+   <fee>100 USD</fee>
+   <im>events/event1.jpg</im>
+ </mumbai>
+ 
+<jaipur>
+   <city>jaipur</city>
+   <name>dance of india</name>
+   <state>rajasthan</state>
+   <dat>14-12-2017</dat>
+   <place>pinck city, boxoffice studio</place>
+   <fee>1000 USD</fee>
+   <im>events/event2.jpg</im>
+</jaipur>
+   
+<nagpur>
+   <city>nagpur</city>
+   <name>india ideal</name>
+   <state>maharastra</state>
+   <dat>05-10-2017</dat>
+   <place>seeta bardi, boxoffice studio</place>
+   <fee>200 USD</fee>
+   <im>events/event3.jpg</im>
+</nagpur>
+   
+<pune>
+   <city>pune</city>
+   <name>dance india</name>
+   <state>maharastra</state>
+   <dat>02-08-2017</dat>
+   <place>bandra, boxoffice studio</place>
+   <fee>500 USD</fee>
+   <im>events/event4.jpg</im>
+</pune>
+  </events>

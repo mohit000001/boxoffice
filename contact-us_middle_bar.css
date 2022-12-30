@@ -1,0 +1,136 @@
+.middle
+{
+    background-color:aliceblue; 
+    position:relative;
+    height:1000px;
+    margin-left:10px;
+   
+    
+}
+.left
+{
+    background-image:url(boxoffice-logo.jpg); 
+    margin-right:20px;
+    position:relative;
+    max-width:12%;
+    float: left;
+    
+}
+.notification_box
+{
+    
+    COLOR:aliceblue;
+    border-top:inset 2px #1C1C1C;
+    border-left:inset 2px #1C1C1C;
+    padding:5px 5px 0px 5px;
+    font-weight:700;
+    font-size:15px;
+    border-bottom:5px solid #CFCFCF;
+    text-align: center;
+    margin-right:5px;
+}
+.notification_text_box
+{
+    position: relative;
+    max-height:450px; 
+    overflow:hidden;
+    margin:10px;
+}
+.notification_text
+{
+    position: relative;
+    font-family: Century Schoolbook;
+    color:aliceblue;
+    font-weight:600;
+    font-family:monospace;/*Times New Roman;*/
+}
+.midd
+{
+    position:relative;
+    max-width:63%;
+    clear:both;
+    display: inline-block;
+}
+.head_office
+{
+    position:relative;
+    top:100px;
+    text-decoration:underline;
+}
+
+.right
+{
+    background-image:url(boxoffice-logo.jpg); 
+    position:relative;
+    max-width:24%;
+    float:right;
+    overflow: auto;
+    
+}
+.upcoming_events
+{
+    
+    font-size:15px; 
+    margin-left:7px; 
+    word-spacing:10px; 
+    color:aliceblue; 
+    font-family: Century Schoolbook; 
+    font-weight:900;
+    text-align: center; 
+    BORDER-RADIUS:5PX;
+    border:5px inset #282828;
+    background-color:#666666;
+}
+ .middle_right img
+{
+    background-color:#1C1C1C;
+    border:inset 5px #282828;
+    border-radius:7px;
+    position:relative;
+    text-align: center;
+    MARGIN:5PX;
+}
+@media only screen and (max-width:390px)
+{
+  .middle{
+    background-color:aliceblue; 
+    position:relative;
+	top:140px;
+    min-height:1700px !important;
+    }
+.right{
+   display:none;
+   }  
+.left{
+  display:none;
+  
+  }
+.midd
+{
+    position:relative;
+    max-width:390px;
+    clear:both;
+    display:inline-block;
+}
+.head_office
+{
+    position:relative;
+    top:50px;
+    text-decoration:underline;
+}
+#head_off,#mum,#del
+{
+  font-size:10px;
+  left:10px !important;
+  top:20px !important;
+}
+
+.subsidars
+{
+  position:relative; 
+  left:10px !important; 
+  top:130px !important;
+  border-top:2px black solid;
+  padding-top:50px;
+}
+}
