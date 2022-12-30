@@ -1,0 +1,368 @@
+.middle
+{
+    background-color:aliceblue; 
+    position:relative;
+    height:1200px;
+    
+}
+.left
+{
+    background-image:url(boxoffice-logo.jpg); 
+    margin-right:20px;
+    position:relative;
+    max-width:12%;
+    float: left;
+    
+}
+.notification_box
+{
+    
+    COLOR:aliceblue;
+    border-top:inset 2px #1C1C1C;
+    border-left:inset 2px #1C1C1C;
+    padding:5px 5px 0px 5px;
+    font-weight:700;
+    font-size:15px;
+    border-bottom:5px solid #CFCFCF;
+    text-align: center;
+    margin-right:5px;
+}
+.notification_text_box
+{
+    position: relative;
+    max-height:450px; 
+    overflow:hidden;
+    margin:10px;
+}
+.notification_text
+{
+    position: relative;
+    font-family: Century Schoolbook;
+    color:aliceblue;
+    font-weight:600;
+    font-family:monospace;/*Times New Roman;*/
+}
+.midd
+{
+    position:relative;
+    max-width:63%;
+    clear:both;
+    display: inline-block;
+}
+.update_button
+ { 
+   display:block-inline;
+   position:absolute;
+   top:20px;
+   left:750px;
+   width:120px;
+   border-radius:5px;
+   padding:3px 3px 0px 3px;
+   background-color:black;
+   border:insert thin black;
+   color:white;
+   font-size:15px;
+   font-weight:700;
+ }
+ .update_button:hover
+ {
+  background-color:orange;
+  
+ }
+ #conform_account_notice
+ {
+   position:relative;
+   top:20px;
+    left:10px;
+   font-size:11px;
+   background-color:white;
+   border-radius:5px;
+   border:solid thin white;
+   color:red;
+   padding:5px;
+   display:none;
+ }
+ .edit_pic
+   {
+ 
+   position:absolute;
+   top:170px;
+   left:50px;
+   border:white solid thin;
+   background-color:white;
+   font-size:12px;
+   font-weight:700;
+   text-transform:capitalize;
+   border-radius:2px;
+   padding:8px;
+   padding-bottom:0px;
+   padding-top:0px;
+   }
+.profile
+{
+  position:relative;
+  left:100px;
+  top:50px;
+  border-top:solid thin black;
+  max-width:600px;
+}
+table tr td
+{
+  padding:20px;
+  font-size:13px;
+  font-weight:700;
+  max-width:400px;
+  word-break:break-all;
+}
+table tr
+ {
+   border-bottom:solid 2px black;
+ }
+ #full_name
+ {
+  font-size:18px;
+  text-decoration:underline; 
+  text-transform:capitalize;
+  font-weight:700; 
+  color:blue;
+ }
+ #about,#op_info,#re_info,#ac_info
+ {
+  font-size:18px;
+  text-decoration:underline; 
+  text-transform:capitalize;
+  font-weight:700; 
+ }
+.right
+{
+    background-image:url(boxoffice-logo.jpg); 
+    position:relative;
+    max-width:24%;
+    float:right;
+    overflow: auto;
+    
+}
+.upcoming_events
+{
+    
+    font-size:15px; 
+    margin-left:7px; 
+    word-spacing:10px; 
+    color:aliceblue; 
+    font-family: Century Schoolbook; 
+    font-weight:900;
+    text-align: center; 
+    BORDER-RADIUS:5PX;
+    border:5px inset #282828;
+    background-color:#666666;
+}
+ .middle_right img
+{
+    background-color:#1C1C1C;
+    border:inset 5px #282828;
+    border-radius:7px;
+    position:relative;
+    text-align: center;
+    MARGIN:5PX;
+}
+
+@media only screen and (max-width:390px)
+{
+  .middle{
+    background-color:aliceblue; 
+    position:relative;
+	top:140px;
+    min-height:1500px !important;
+    }
+.right{
+   display:none;
+   }  
+.left{
+  display:none;
+  
+  }
+.midd
+{
+    position:relative;
+    max-width:390px;
+    clear:both;
+    display:inline-block;
+}
+.profile
+{
+  position:relative;
+  left:1px;
+  top:50px;
+  border-top:solid thin black;
+  max-width:350px;
+}
+.update_button
+ { 
+   font-size:12px;
+   top:20px;
+   left:224px;
+   z-index:2;
+ }
+ #conform_account_notice
+ {
+   position:absolute;
+   top:2px;
+   left:1px;
+   font-size:8px;
+   background-color:white;
+   border-radius:5px;
+   border:solid thin white;
+   color:red;
+   padding:5px;
+   display:none;
+ }
+ .profile img
+ {
+   width:100px;
+   height:100px;
+ }
+ .edit_pic
+   {
+ 
+   position:absolute;
+   top:105px;
+   left:10px;
+   border:white solid thin;
+   background-color:white;
+   font-size:10px;
+   font-weight:700;
+   text-transform:capitalize;
+   border-radius:2px;
+   padding:8px;
+   padding-bottom:0px;
+   padding-top:0px;
+   }
+
+table tr td
+{
+  padding:5px;
+  padding-bottom:20px;
+  font-size:13px;
+  font-weight:700;
+ 
+}
+
+table tr
+ {
+   border-bottom:solid 2px black;
+ }
+ #full_name
+ {
+  font-size:18px;
+  text-decoration:underline; 
+  text-transform:capitalize;
+  font-weight:700; 
+  color:blue;
+ }
+ #about,#op_info,#re_info,#ac_info
+ {
+  font-size:18px;
+  text-decoration:underline; 
+  text-transform:capitalize;
+  font-weight:700; 
+ }
+#about
+{
+ position:absolute;
+ top:130px;
+}
+
+#about_text
+{
+ position:relative;
+ top:23px;
+ left:-110px;
+ max-width:280px;
+ min-width:280px;
+}
+#op_sec
+{
+ border-bottom:none;
+}
+#op_info
+{
+  position:relative;
+  top:-190px;
+  font-size:13px;
+  color:orange;
+}
+#option_contain
+{
+ position:relative;
+ top:40px;
+ left:-110px;
+}
+#re_sec
+{
+  border-bottom:none;
+  position:relative;
+  top:80px;
+}
+#re_info
+{
+ position:relative;
+ top:-10px;
+ font-size:13px;
+ color:orange;
+}
+#re_contain
+{
+ position:relative;
+ top:90px;
+ left:-110px;
+}
+#ac_sec
+{
+  border-bottom:none;
+}
+#ac_info
+{
+ position:relative;
+ top:70px;
+ font-size:13px;
+ color:orange;
+}
+#ac_contain
+{
+  position:relative;
+ top:135px;
+ left:-110px;
+} 
+#op_line
+{
+  display:inline-block !important;
+  position:relative;
+  top:-170px;
+  left:0px;
+  max-width:390px;
+  min-width:390px;
+}
+#re_line
+{
+  display:inline-block !important;
+  position:relative;
+  top:-20px;
+  left:0px;
+  max-width:390px;
+  min-width:390px;
+}
+#ac_line
+{
+  display:inline-block !important;
+  position:relative;
+  top:60px;
+  left:0px;
+  max-width:390px;
+  min-width:390px;
+}
+#specail_add
+{
+  left:2px !important;
+ 
+}
+}

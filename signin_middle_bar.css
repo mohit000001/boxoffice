@@ -1,0 +1,304 @@
+.middle
+{
+    background-color:aliceblue; 
+    position:relative;
+    height:1100px;
+   
+}
+.left
+{
+    background-image:url(boxoffice-logo.jpg); 
+    margin-right:20px;
+    position:relative;
+    max-width:12%;
+    float: left;
+    
+}
+.notification_box
+{
+    
+    COLOR:aliceblue;
+    border-top:inset 2px #1C1C1C;
+    border-left:inset 2px #1C1C1C;
+    padding:5px 5px 0px 5px;
+    font-weight:700;
+    font-size:15px;
+    border-bottom:5px solid #CFCFCF;
+    text-align: center;
+    margin-right:5px;
+}
+.notification_text_box
+{
+    position: relative;
+    max-height:450px; 
+    overflow:hidden;
+    margin:10px;
+}
+.notification_text
+{
+    position: relative;
+    font-family: Century Schoolbook;
+    color:aliceblue;
+    font-weight:600;
+    font-family:monospace;/*Times New Roman;*/
+}
+.midd
+{
+    position:relative;
+    max-width:63%;
+    clear:both;
+    display: inline-block;
+	
+}
+.new_account_form
+{
+    position: relative;
+    top:10px;
+    left:10px;
+    color:black;
+    border:solid 5px #BFEFFF;
+	background-color:rgb(240,246,255);
+    padding:50px 50px 20px 50px;
+    border-radius:10px;
+    font-weight:bolder;
+    text-transform:capitalize;
+	width:900px;
+}
+#validation_warning
+ {
+ color:red; 
+ font-size:12px; 
+ background-color:white;
+ padding:5px;
+ border:red solid thin;
+ border-radius:5px;
+ display:none;
+}
+#server_side_warning
+{
+ color:red; 
+ font-size:12px; 
+ background-color:white;
+ padding:5px;
+ border:red solid thin;
+ border-radius:5px;
+ display:none;
+}
+#uname_exists,#email_exists,#mobile_exists
+{
+  background-color:red;
+  color:white;
+  font-size:12px;
+  font-weight:700;
+  text-transform:capitalize;
+  font-style: oblique;
+  border:red solid thin;
+  border-radius:5px;
+  padding:5px;
+  padding-bottom:1px;
+  padding-top:3px;
+  margin-left:20px;
+  display:none;
+}
+#uname_not_exists,#email_not_exists,#mobile_not_exists
+{
+  
+  background-color:green;
+  color:white;
+  font-size:12px;
+  font-weight:700;
+  text-transform:capitalize;
+  font-style: oblique;
+  border:green solid thin;
+  border-radius:5px;
+  padding:5px;
+  padding-bottom:1px;
+  padding-top:3px;
+  margin-left:20px;
+  display:none;
+
+}
+.new_account_form >input
+{
+    color:black;
+    font-weight:500;
+    
+}
+ .new_account_form legend
+{
+    
+    color:blue; 
+    font-weight:700;
+    font-size:12px;
+    letter-spacing:2px;
+    word-spacing:5px;
+    font-style: oblique;
+}
+.form_submit_button
+{
+    position: relative;
+    font-weight:700;
+    font-size:15px;
+    text-transform:capitalize;
+    border:2px inset #282828;
+    border-radius:5px;
+    padding:5px 10px 2px 10px;
+    color:aliceblue;
+    background-image:url(button_back.jpg);
+}
+.right
+{
+    background-image:url(boxoffice-logo.jpg); 
+    position:relative;
+    max-width:24%;
+    float:right;
+    overflow: auto;
+    
+}
+.upcoming_events
+{
+    
+    font-size:15px; 
+    margin-left:7px; 
+    word-spacing:10px; 
+    color:aliceblue; 
+    font-family: Century Schoolbook; 
+    font-weight:900;
+    text-align: center; 
+    BORDER-RADIUS:5PX;
+    border:5px inset #282828;
+    background-color:#666666;
+}
+ .middle_right img
+{
+    background-color:#1C1C1C;
+    border:inset 5px #282828;
+    border-radius:7px;
+    position:relative;
+    text-align: center;
+    MARGIN:5PX;
+}
+@media only screen and (max-width:390px)
+{
+  .middle{
+    background-color:aliceblue; 
+    position:relative;
+	top:140px;
+    min-height:1700px !important;
+    }
+.right{
+   display:none;
+   }  
+.left{
+  display:none;
+  
+  }
+.midd
+{
+    position:relative;
+    max-width:390px;
+    clear:both;
+    display:inline-block;
+}
+.new_account_form
+{
+    position: relative;
+    top:10px;
+    left:1px;
+    color:black;
+    border:solid 5px #BFEFFF;
+	background-color:rgb(240,246,255);
+    padding:0px 0px 20px 10px;
+    border-radius:10px;
+    font-weight:bolder;
+    text-transform:capitalize;
+	max-width:390px;
+}
+ .new_account_form legend
+{
+    position:relative;
+	left:0px !important;
+    color:blue; 
+    font-weight:700;
+    font-size:10px;
+    letter-spacing:2px;
+    word-spacing:5px;
+    font-style: oblique;
+    border-bottom:none;
+}
+.new_account_form >input
+{
+   max-width:300px;
+    
+}
+#mobile
+{
+ max-width:250px;
+}
+#fname_warning,#lname_warning,#uname_warning,#email_warning,#password_warning,#re-password_warning,#pincode_warning,#mobile_warning
+ {
+  left:1px !important;
+ }
+ #email_warning
+ {
+  top:20px !important;
+ }
+ #email
+ {
+   left:-55px !important;
+   max-width:250px;
+   top:20px;
+ }
+ #bod_warning,#cou_warning,#tanc_warning
+ { 
+  position:relative;
+  top:20px !important;
+  display:block;
+ }
+#add1_warning
+{
+  position:relative;
+  top:20px;
+  display:block;
+} 
+#validation_warning
+ {
+
+ font-size:10px;
+width:350px; 
+}
+#server_side_warning
+{
+ font-size:10px;
+width:350px; 
+
+}
+#uname_exists,#email_exists,#mobile_exists
+{
+ position:relative;
+ top:20px;
+ left:0px;
+ font-size:10px;
+  
+}
+#uname_not_exists,#email_not_exists,#mobile_not_exists
+{
+  
+ position:relative;
+ top:20px;
+ left:0px;
+ font-size:10px;
+}
+#email_exists
+{
+  left:40px !important;
+  top:30px !important;
+}
+#email_not_exists
+{
+  left:40px !important;
+  top:30px !important;
+}
+
+
+}

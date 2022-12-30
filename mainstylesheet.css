@@ -1,0 +1,30 @@
+*
+{
+    padding:0px;
+    margin:0px;
+}
+html
+{
+     height:0px;
+	 width:0px;
+	 overflow-y:scroll;
+}
+body
+{
+     background-color:#1C1C1C;
+     overflow-x:hidden;
+	 position:absolute;
+	 overflow-y:hidden;
+}
+marquee
+{
+    position:relative;
+    top:1px;
+    right: 1px;
+    color:white;
+    font-weight: 900;
+    color:white;
+    font-family: fantasy;
+	background-color:black;
+    
+}
